@@ -1,27 +1,57 @@
-# AngularChecklistLocdo
+<h1 align="center"> Name Project </h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.
+<p align="center">
+  <img src="https://github.com/angular/angular/raw/master/aio/src/assets/images/logos/angular/angular.png" alt="angular-logo" width="120px" height="120px"/>
+  <br>
+  <i>
+  Checklist about Angular source code
+  </i>
+  <br>
+</p>
 
-## Development server
+<hr>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Development
 
-## Code scaffolding
+### Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Install [Node.js](https://nodejs.org/en/) which includes [Node Package Manager](https://www.npmjs.com/get-npm)
 
-## Build
+### Setting Up a Project
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Install the Angular CLI globally:
 
-## Running unit tests
+```
+npm install -g @angular/cli
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run the application 
 
-## Running end-to-end tests
+```
+npm start
+```
+or
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+ng serve
+```
 
-## Further help
+Run test without coverage 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+npm run test
+```
+
+or
+
+```
+ng test
+```
+
+Run test with coverage
+
+```
+npm run test:coverage
+```
+
+### Libraries and frameworks serve for the project.
